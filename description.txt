@@ -1,0 +1,25 @@
+
+This python file is built for alloment algorithm for Didongviet company.
+
+''' It will create various of excel files balance the number in the Inventory of all 64 stores in Viet Nam
+base in 2 rounds.
+-First round: run in HoChiMinh and Hanoi and the exceed quantity will move to HO (Head Office).
+-Second round: the Head Office will redeliver to all the store which lacked the amount of good.
+
+purpose: automation the data to reduce numerous of workloads '''
+
+Intruction: Input 2 files throught changing path in source code.
+
+Input file: 
++StockHO.xlsx
++DisSale2703.xlsx
+
+Output file:
++KHO_HO_FINAL.xlsx
++danh sách tất cả store thiếu hàng.xlsx
++KHO_HO_sau_khi_nhận_hàng.xlsx
++danh sách store tỉnh thiếu hàng.xlsx
++danh sách store tỉnh thừa hàng.xlsx
++danh sách tất cả store thừa hàng.xlsx
++HồChíMinh.xlsx
++HàNội.xlsx
